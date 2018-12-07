@@ -1,0 +1,75 @@
+
+.NavTop{
+	background: #282828;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    overflow: hidden;
+    color: white;
+}
+.NavTop span{
+	padding: 0 1em;
+    font-size: 18px;
+    color: #efefef;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    displdday: inline-block;
+    overflow: hidden;
+}
+.NavTop i{
+	margin: 10px;
+}
+
+
+.LeftList{
+	width:80%;
+	height: 100%;
+	position: fixed;
+	top: 50px;
+	left:-80%;
+	bottom: 0;
+	background: black;
+	color: white;
+	transition:left 0.3s linear ;
+	z-index: 999;
+}
+
+.LeftList ul li a{
+	text-decoration:none;
+	font-size: 18px;
+	color:#CCCCCC;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.LeftList ul,li{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.LeftList ul li{
+	height: 60px;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	line-height: 60px;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.goTop{
+	width: 50px;
+	height: 50px;
+	background: rgb(0,0,0,0.3);
+	border-radius: 50%;
+	line-height: 50px;
+	position: fixed;
+	bottom: 20px;
+	right: 10px;
+}
+.goTop i{
+	color: white;
+	margin: 13px 14px;
+}
+.NavTop .NavTopGpsStyle{
+	margin-left: 85px;
+}
+

@@ -1,0 +1,31 @@
+.home{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: #ebebeb;
+}
+.more{
+	display: block;
+	width: 35%;
+	height: 30px;
+	border: 1px solid #CCCCCC;
+	border-radius:15px;
+	text-align: center;
+	line-height: 30px;
+	margin: 20px auto;
+	color: #CCCCCC;
+}
+.hr-more {
+	display: inline-block;
+    height: 20px;  
+    width: 75px;   
+    position: relative; 
+    left: 41%;  
+    top: -19px;  
+    font: normal 1.2em/20px 微软雅黑; 
+    vertical-align: middle; 
+    text-align: center; 
+    border-radius: 4px; 
+    color: white;
+    background-color: #A7A7A7; 
+}

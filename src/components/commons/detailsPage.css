@@ -1,0 +1,87 @@
+.detailsPage{
+	position: absolute;
+	top: -50px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1000;
+	width:100%;
+	background: white;
+}
+.detailsPage .titleTop{
+	background: #282828;
+    width: 100%;
+    height: 50px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.detailsPage .titleTop span{
+	padding: 0 1em;
+    font-size: 18px;
+    color: #efefef;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    overflow: hidden;
+}
+.detailsPage .titleTop i{
+	margin:10px;
+}
+.detailsPage img{
+	width: 100%;
+}
+.detailsPage .introduce{
+	position: absolute;
+	top: 50px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	background: #EBEBEB;
+}
+.detailsPage .introduce .introduceTitle{
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	border-left:20px solid #E4C89C;
+	margin: 10px 0;
+	box-sizing: border-box;
+	padding-left: 5px;
+	font-size: 16px;
+}
+.detailsPage .introduce .introduceContent{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 15px;
+	
+}
+
+.detailsPage .introduce .introduceContent > p{
+	font-size: 15px;
+	margin:5px 0;
+}
+.detailsPage .nowShopping{
+	position: fixed;
+	bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: none;
+	width: 100%;
+}
+.detailsPage .nowShopping button{
+	background: darkorange;
+	color: white;
+	width: 40%;
+	height: 40px;
+	font-size: 16px;
+	line-height: 40px;
+	border:none;
+	outline: none;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}

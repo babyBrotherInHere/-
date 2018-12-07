@@ -1,0 +1,65 @@
+.FilmCommons{
+	width: 100%;
+}
+.FilmCommons .filmsBox{
+	width: 100%;
+}
+
+.FilmCommons .filmsBox li{
+	width: 100%;
+	height: 100px;
+	box-sizing: border-box;
+	padding:10px 0;
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px dashed #CCCCCC;
+}
+.FilmCommons a{
+	text-decoration:none;
+	color: black;
+}
+.FilmCommons .filmsBox li div:nth-of-type(1){
+	height: 100%;
+	flex:2;
+}
+.FilmCommons .filmsBox li div:nth-of-type(1) img{
+	height: 100%;
+}
+.FilmCommons .filmsBox li div:nth-of-type(2){
+	flex:10;
+	box-sizing: border-box;
+	padding: 5px;
+}
+.FilmCommons .filmsBox li div:nth-of-type(2) p{
+	height: 25px;
+	line-height: 25px;
+}
+.FilmCommons .filmsBox li div:nth-of-type(2) .titleStyle{
+	display: flex;
+	justify-content:space-between;
+	width: 100%;
+}
+.FilmCommons .filmsBox li div:nth-of-type(2) .titleStyle span:nth-of-type(1){
+	font-size: 16px;
+}
+.FilmCommons .filmsBox li div:nth-of-type(2) .titleStyle span:nth-of-type(2){
+	
+}
+.FilmCommons .filmsBox li div:nth-of-type(2) .titleStyle span:nth-of-type(2) span:nth-of-type(1){
+	color: darkorange;
+}
+.FilmCommons .filmsBox li div:nth-of-type(2) .titleStyle span:nth-of-type(2) i{
+	margin-left: 8px;
+}
+.FilmCommons .filmsBox li div:nth-of-type(2) .contextStyle{
+	font-size: 12px;
+	color: #8E8E8E;
+}
+
+.FilmCommons .filmsBox li div:nth-of-type(2) .bottomContext{
+	font-size: 12px;
+	color: #8E8E8E;
+}
+.FilmCommons .filmsBox li div:nth-of-type(2) .bottomContext span:nth-of-type(2){
+	margin-left: 20px;
+}

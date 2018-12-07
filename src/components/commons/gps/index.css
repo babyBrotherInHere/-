@@ -1,0 +1,60 @@
+.GpsNav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	/*background: red;*/
+}
+.GpsNav p{
+	width: 100%;
+}
+.GpsNav p:nth-child(even){
+	background: white; 	
+}
+.GpsNav p:nth-child(odd){
+	background: #EBEBEB; 
+	height: 45px;	
+	line-height: 45px;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+.GpsNav .HotStyle{
+	height: 50px;
+	font-size: 16px;
+	color: #838383;
+	line-height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.GpsNav .currentStyle{
+	height: 45px;
+	color: orange;
+	font-size: 16px;
+	line-height: 45px;
+	padding-left: 35px;
+	box-sizing: border-box;
+}
+.GpsNav .LetterStyle{
+	display: flex;
+	flex-flow: row wrap;
+	background: white;
+}
+.GpsNav .LetterStyle span{
+	display: inline-block;
+	width: 25%;
+	height: 52px;
+	border-bottom: 1px solid #CCCCCC;
+	line-height:52px;
+	text-align: center;
+	font-size: 16px;
+	color: #838383;
+	text-overflow:ellipsis;
+	text-overflow:clip;
+	overflow: hidden;
+	white-space:nowrap;
+	overflow-x: scroll;
+}
+

@@ -1,0 +1,37 @@
+html,body,div,ul,li,img,p{margin: 0;padding: 0;}
+body{background: #ebebeb;}
+ul,li{list-style: none;}
+.filmListed{
+	width: 100%;
+}
+.filmListed li{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	position:relative;
+}
+/*.filmListed li .imgStyle{
+	width: 100%;
+	height: 100%;
+}
+.filmListed li .imgStyle img{
+	width: 100%;
+}*/
+.nowPlayingText{padding:5px;background: #fff;margin-bottom: 10px;margin-top:-5px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;}
+.nowPlayingText div span:nth-of-type(1){
+	color:red;
+}
+.filmListed li a{
+	text-decoration: none;
+	color: black;
+}
+.nowPlayingText div p{
+	color: #ccc;
+	font-size: 12px;
+}
+.score{position:absolute;right:20px;bottom:32px;}
+.timeStyle{
+	color:red;
+	position: absolute;
+	right: 60px;
+}
